@@ -19,7 +19,8 @@ A FastAPI-based RAG (Retrieval-Augmented Generation) chat application that allow
 
 1. **Clone or download the project:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Devamsingh09/rag-chat_with_docs.git
+
    cd real_time_rag
    ```
 
