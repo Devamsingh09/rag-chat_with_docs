@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time RAG Chat</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time RAG Chat</h1>
+
+        <div class="upload-section">
+            <h2>Upload Documents</h2>
+            <form id="uploadForm">
+                <input type="file" id="fileInput" multiple accept=".txt,.pdf,.docx">
+                <button type="submit">Upload Files</button>
+            </form>
+            <div id="uploadStatus"></div>
+        </div>
+
+        <div class="chat-section">
+            <h2>Chat with Documents</h2>
+            <div id="chatMessages"></div>
+            <form id="chatForm">
+                <input type="text" id="queryInput" placeholder="Ask a question about the uploaded documents..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
